@@ -2,7 +2,7 @@
 
 .section-one {
 	
-	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("./images/cover-hero-section.jpg");
+	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("/images/cover-hero-section.jpg");
     background-size: cover;
 	position: relative;
 	height: 600px;

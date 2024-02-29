@@ -13,6 +13,8 @@
 	--dairy: #fcfcfc;
 	--font-family: "Roboto", sans-serif;
 	--second-family: "Raleway", sans-serif;
+	--icons-background: #4d5ae5;
+	--clients-background: #404bbf;
 }
 
 /* * {
@@ -33,7 +35,6 @@ a {
 li {
 	list-style-type: none;
 }
-
 .container {
 	width: 1200px;
 	margin: 0 auto;
@@ -43,13 +44,13 @@ li {
 	padding: 94px 0;
 }
 
-.top-line {
+.header-line {
 	background: var(--white);
 	border-bottom: 1px solid var(--cornflower);
 	padding: 24px 0;
 }
 
-.top-line-style {
+.header-line-style {
 	display: flex;
 	justify-content: space-between;
 }
@@ -132,3 +133,22 @@ li {
 	letter-spacing: 0.02em;
 	color: var(--cloud);
 }
+.social-media{
+	width: 208px;
+height: 80px;
+}
+.social-media h3 {
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--cloud);
+}
+.total{
+	display: flex;
+	gap:120px;
+	
+}
+
+

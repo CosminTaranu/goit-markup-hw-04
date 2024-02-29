@@ -12,7 +12,6 @@
 	padding: 12px 24px;
 	border: 1px solid var(--cornflower);
 	border-radius: 4px;
-	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 	background: var(--cloud);
 	font-weight: 500;
 	font-size: 16px;
@@ -25,6 +24,7 @@
 .filters-section-list-button:hover {
 	color: var(--white);
 	background: var(--ocean);
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
 	cursor: pointer;
 }
 
@@ -32,7 +32,9 @@
 	display: flex;
 	justify-content: space-between;
 }
-
+.project-card:hover{
+	box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
 .project-card {
 	border: 1px solid var(--cornflower);
 	background: var(--white);
@@ -57,4 +59,34 @@
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--slate);
+}
+
+.icons-list {
+	display: flex;
+	justify-content: center;
+	gap: 24px;
+	margin-bottom: 32px;
+}
+
+.icons-list .icon svg{
+	width: 16px;
+	height: 16px;
+}
+
+.icons-list .icon {
+	width: 40px;
+	height: 40px;
+	background-color: var(--icons-background);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social-media .icon-list {
+	display: flex;
+	flex: column;
+}
+.social-media h3{
+	margin-bottom: 16px;
 }
